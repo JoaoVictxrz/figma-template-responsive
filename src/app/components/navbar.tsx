@@ -11,7 +11,7 @@ export default function Navbar() {
     }
 
     return (
-        <div className="bg-greenLemon text-white px-16 py-5 flex justify-between items-center md:px-32">
+        <div className="bg-greenLemon text-white fixed w-full px-16 py-5 flex justify-between items-center md:px-32">
             <div className="">
                 <Image src="/Logo.png" width={129} height={38} alt="Logo" />
             </div>
