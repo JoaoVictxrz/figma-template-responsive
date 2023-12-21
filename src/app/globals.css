@@ -29,3 +29,11 @@ body {
 .listNavBar {
   @apply text-2xl font-semibold drop-shadow-md hover:drop-shadow-lg shadow-black;
 }
+
+.btnMd {
+  @apply md:h-16 md:w-64 md:flex md:items-center md:justify-center md:text-3xl;
+}
+
+.imgMd {
+  @apply md:w-[800px] md:h-[867px] md:order-last;
+}

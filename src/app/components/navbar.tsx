@@ -11,12 +11,12 @@ export default function Navbar() {
     }
 
     return (
-        <div className="bg-greenLemon text-white px-16 py-5 flex justify-between items-center">
+        <div className="bg-greenLemon text-white px-16 py-5 flex justify-between items-center md:px-32">
             <div className="">
                 <Image src="/Logo.png" width={129} height={38} alt="Logo" />
             </div>
-            <div className="hidden md:flex items-center float-right">
-                <ul className="flex gap-10 font-extralight text-lg">
+            <div className="hidden md:flex items-center">
+                <ul className="flex gap-10 font-extralight text-3xl">
                     <li><a href="">Home</a></li>
                     <li><a href="">Portfolio</a></li>
                     <li><a href="">Services</a></li>
