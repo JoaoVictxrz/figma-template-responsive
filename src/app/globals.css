@@ -25,3 +25,7 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.listNavBar {
+  @apply text-2xl font-semibold drop-shadow-md hover:drop-shadow-lg shadow-black;
+}
