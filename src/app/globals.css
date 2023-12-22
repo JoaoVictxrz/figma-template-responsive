@@ -37,3 +37,7 @@ body {
 .imgMd {
   @apply md:w-[800px] md:h-[867px] md:order-last;
 }
+
+.btnLearnMore {
+  @apply text-white bg-zinc-900 text-xl h-12 w-48 rounded-md hover:bg-zinc-800;
+}

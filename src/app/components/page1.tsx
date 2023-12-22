@@ -2,14 +2,14 @@ import Image from "next/image"
 
 export default function InicialPage() {
     return (
-        <div className='flex flex-col items-center w-full p-8 bg-greenLemon md:grid md:grid-cols-2 md:px-20 md:p-0'>
+        <div className='flex flex-col items-center max-w-full p-8 bg-greenLemon md:grid md:grid-cols-2 md:px-20 md:p-0'>
             <div className='flex items-center pt-20'>
                 <Image
                     src='/Group.svg'
                     width={600}
                     height={197}
                     alt='Person'
-                    className='imgMd'
+                    className=' w-auto imgMd'
                 />
             </div>
             <div className='text-white p-10 mb-12 grid md:order-first md:gap-5'>
