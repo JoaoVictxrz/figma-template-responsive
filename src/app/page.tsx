@@ -17,6 +17,10 @@ export default function Home() {
         <Page3 />
         <Page4 />
       </main >
+      <footer>
+        <div className='bg-greenLemon w-full h-32'>
+        </div>
+      </footer>
     </>
   )
 }
