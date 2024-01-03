@@ -1,7 +1,9 @@
+"use client";
 import { useState } from "react";
 import { LuAlignJustify } from "react-icons/lu";
 import { IoClose } from "react-icons/io5";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -17,9 +19,9 @@ export default function Navbar() {
             </div>
             <div className="hidden md:flex items-center">
                 <ul className="flex gap-10 font-extralight text-3xl">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Portfolio</a></li>
-                    <li><a href="">Services</a></li>
+                    <Link href='/'>Home</Link>
+                    <Link href='/portfolio'>Portfolio</Link>
+                    <Link href='/services'>Services</Link>
                     <li><a href="">Contact</a></li>
                 </ul>
             </div>
@@ -35,9 +37,9 @@ export default function Navbar() {
             {isOpen && (
                 <div className="md:hidden w-full h-auto flex justify-center items-center pt-10">
                     <ul className="flex flex-col gap-5 items-center font-semi-bold text-lg ">
-                        <li className="listNavBar"><a href="">Home</a></li>
-                        <li className="listNavBar"><a href="">Portfolio</a></li>
-                        <li className="listNavBar"><a href="">Services</a></li>
+                        <Link href='/' className="listNavBar">Home</Link>
+                        <Link href='/portfolio' className="listNavBar">Portfolio</Link>
+                        <Link href='/services' className="listNavBar">Services</Link>
                         <li className="listNavBar"><a href="">Contact</a></li>
                     </ul>
                 </div>

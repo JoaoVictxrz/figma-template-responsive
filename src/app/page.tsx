@@ -11,14 +11,12 @@ import Footer from './components/Footer';
 export default function Home() {
   return (
     <>
-      <Navbar />
       <main>
         <Page1 />
         <Page2 />
         <Page3 />
         <Page4 />
       </main >
-      <Footer />
     </>
   )
 }
