@@ -22,7 +22,7 @@ export default function Navbar() {
                     <Link href='/'>Home</Link>
                     <Link href='/portfolio'>Portfolio</Link>
                     <Link href='/services'>Services</Link>
-                    <li><a href="">Contact</a></li>
+                    <Link href='/contact'>Contact</Link>
                 </ul>
             </div>
             <div onClick={handleClick} className="md:hidden cursor-pointer fixed right-8">
@@ -40,7 +40,7 @@ export default function Navbar() {
                         <Link href='/' className="listNavBar">Home</Link>
                         <Link href='/portfolio' className="listNavBar">Portfolio</Link>
                         <Link href='/services' className="listNavBar">Services</Link>
-                        <li className="listNavBar"><a href="">Contact</a></li>
+                        <Link href='/contact' className="listNavBar">Contact</Link>
                     </ul>
                 </div>
             )}
